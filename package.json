@@ -1,0 +1,29 @@
+{
+  "name": "basic-chat",
+  "version": "1.0.0",
+  "description": "basic chat using node.js and web sockets with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afgamboa/basic-chat.git"
+  },
+  "author": "Gamboa Andres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afgamboa/basic-chat/issues"
+  },
+  "homepage": "https://github.com/Afgamboa/basic-chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
